@@ -9,11 +9,11 @@ html{
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: .9;
+  opacity: 0.9;
   text-align: center;
 }
 
-h1, h2, h3, h4, p, a{
+h1, h2, h3, h4, h5, h6, p, a{
   padding: 10px;
 }
 
@@ -23,7 +23,7 @@ header{
   border-bottom: 1px solid seashell;
   position: fixed;
   z-index: 2;
-  padding: 0px 10px;
+  padding-left: 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -33,6 +33,7 @@ header{
 
 nav ul li{
   display: inline-block;
+  padding-right: 10px;
 }
 
 header img{
@@ -53,6 +54,7 @@ a{
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .banner{
@@ -61,6 +63,10 @@ a{
 
 #mission, #featured-tea, #locations{
   margin: 0 auto;
+}
+
+#mission, #featured-tea{
+  margin-bottom: 30px;
 }
 
 #mission{
@@ -85,4 +91,25 @@ a{
 .thumbnail img{
   width: 300px;
   height: 200px;
+}
+
+#locations{
+  width: 1200px;
+  height: 795px;
+  background-image: url("../images/img-locations-background.jpg");
+}
+
+.location-boxes{
+  height: 100%;
+  width: 100%;
+}
+
+.location-boxes h2, .location-box h3{
+  width: 100%;
+}
+
+.location-box{
+  height: 300px;
+  width: 300px;
+  opacity: 1;
 }
