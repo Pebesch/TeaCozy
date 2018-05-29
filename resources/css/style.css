@@ -113,3 +113,19 @@ a{
   width: 300px;
   opacity: 1;
 }
+
+/* Footer area */
+footer{
+  position: relative;
+  top: 70px;
+  width: 100%;
+}
+
+.impressum{
+  height: 200px;
+}
+
+.left-aligning{
+  text-align: left;
+  padding-left: 20px;
+}
