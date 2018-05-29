@@ -27,7 +27,8 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%
+  width: 100%;
+  background-color: black;
 }
 
 nav ul li{
@@ -58,11 +59,30 @@ a{
   background-color: black;
 }
 
+#mission, #featured-tea, #locations{
+  margin: 0 auto;
+}
+
 #mission{
   height: 700px;
+  width: 1200px;
   background-image: url("../images/img-mission-background.jpg");
 }
 
-#mission.banner{
-  width: 1200px;
+#mission .banner{
+  width: 100%;
+}
+
+#featured-tea{
+  width: 1000px;
+}
+
+.thumbnails{
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.thumbnail img{
+  width: 300px;
+  height: 200px;
 }
